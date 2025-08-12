@@ -1,0 +1,83 @@
+/* [project]/src/components/shop/ArtistSearchModal.module.css [app-client] (css) */
+.ArtistSearchModal-module__P8Hh0q__modalOverlay {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, .6);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.ArtistSearchModal-module__P8Hh0q__modalContent {
+  background: #fff;
+  border-radius: 16px;
+  flex-direction: column;
+  width: 90%;
+  max-width: 400px;
+  max-height: 80vh;
+  padding: 20px;
+  display: flex;
+}
+
+.ArtistSearchModal-module__P8Hh0q__modalHeader {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.ArtistSearchModal-module__P8Hh0q__modalHeader h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.ArtistSearchModal-module__P8Hh0q__closeButton {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 5px;
+}
+
+.ArtistSearchModal-module__P8Hh0q__searchContainer {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 8px 12px;
+  display: flex;
+}
+
+.ArtistSearchModal-module__P8Hh0q__searchContainer input {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.ArtistSearchModal-module__P8Hh0q__artistList {
+  overflow-y: auto;
+}
+
+.ArtistSearchModal-module__P8Hh0q__artistListItem {
+  border-radius: 8px;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  display: flex;
+}
+
+.ArtistSearchModal-module__P8Hh0q__artistListItem:hover {
+  background-color: #f4f4f5;
+}
+
+.ArtistSearchModal-module__P8Hh0q__artistListItem img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=src_components_shop_ArtistSearchModal_module_css_e59ae46c._.single.css.map*/

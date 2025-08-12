@@ -1,0 +1,203 @@
+/* [project]/src/components/artist-sns/ItemDetailView.module.css [app-client] (css) */
+.ItemDetailView-module__ipQzoW__container {
+  color: #fff;
+  text-align: left;
+  background-color: #000;
+}
+
+.ItemDetailView-module__ipQzoW__topSection {
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.ItemDetailView-module__ipQzoW__topContent {
+  align-items: flex-start;
+  gap: 20px;
+  display: flex;
+}
+
+.ItemDetailView-module__ipQzoW__leftSection {
+  flex: 4;
+}
+
+.ItemDetailView-module__ipQzoW__rightSection {
+  background-color: #222;
+  border-radius: 10px;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+}
+
+.ItemDetailView-module__ipQzoW__commentsHeader {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.ItemDetailView-module__ipQzoW__commentCount {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.ItemDetailView-module__ipQzoW__refreshButton {
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.2em;
+}
+
+.ItemDetailView-module__ipQzoW__liveChatButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #555;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+}
+
+.ItemDetailView-module__ipQzoW__commentsList {
+  flex-grow: 1;
+  margin-bottom: 15px;
+  overflow-y: auto;
+}
+
+.ItemDetailView-module__ipQzoW__commentInputContainer {
+  border-top: 1px solid #444;
+  gap: 10px;
+  padding-top: 10px;
+  display: flex;
+}
+
+.ItemDetailView-module__ipQzoW__commentInput {
+  color: #fff;
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 5px;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.ItemDetailView-module__ipQzoW__sendButton {
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.5em;
+}
+
+.ItemDetailView-module__ipQzoW__videoPlayer {
+  background-color: #333;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  display: flex;
+}
+
+.ItemDetailView-module__ipQzoW__videoInfo {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.ItemDetailView-module__ipQzoW__artistProfile {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.ItemDetailView-module__ipQzoW__artistImage {
+  border-radius: 50%;
+}
+
+.ItemDetailView-module__ipQzoW__artistDetails {
+  flex-direction: column;
+  display: flex;
+}
+
+.ItemDetailView-module__ipQzoW__artistName {
+  font-weight: bold;
+}
+
+.ItemDetailView-module__ipQzoW__uploadInfo {
+  color: #ccc;
+  font-size: .9em;
+}
+
+.ItemDetailView-module__ipQzoW__actionButtons {
+  gap: 15px;
+  display: flex;
+}
+
+.ItemDetailView-module__ipQzoW__actionButton {
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  border: none;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.2em;
+  display: flex;
+}
+
+.ItemDetailView-module__ipQzoW__merchSection {
+  padding: 20px;
+}
+
+.ItemDetailView-module__ipQzoW__merchGrid {
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  display: grid;
+}
+
+.ItemDetailView-module__ipQzoW__bottomSection {
+  min-width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.ItemDetailView-module__ipQzoW__bottomSection h3 {
+  margin-bottom: 20px;
+}
+
+.ItemDetailView-module__ipQzoW__bottomGrid {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  display: grid;
+}
+
+.ItemDetailView-module__ipQzoW__title {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.ItemDetailView-module__ipQzoW__imageContainer {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.ItemDetailView-module__ipQzoW__stats {
+  color: #ccc;
+  gap: 20px;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  display: flex;
+}
+
+.ItemDetailView-module__ipQzoW__description {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_ItemDetailView_module_css_e59ae46c._.single.css.map*/

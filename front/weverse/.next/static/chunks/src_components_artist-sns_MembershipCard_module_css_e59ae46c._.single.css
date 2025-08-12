@@ -1,0 +1,45 @@
+/* [project]/src/components/artist-sns/MembershipCard.module.css [app-client] (css) */
+.MembershipCard-module__ngbQKq__membershipCard {
+  background-color: #fff;
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+
+.MembershipCard-module__ngbQKq__membershipInfo {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.MembershipCard-module__ngbQKq__heartIcon {
+  color: #ff6b6b;
+  font-size: 24px;
+}
+
+.MembershipCard-module__ngbQKq__membershipText {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.MembershipCard-module__ngbQKq__subscribeButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #8970d0;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color .3s;
+}
+
+.MembershipCard-module__ngbQKq__subscribeButton:hover {
+  background-color: #7a5bbd;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_MembershipCard_module_css_e59ae46c._.single.css.map*/

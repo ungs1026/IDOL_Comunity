@@ -1,0 +1,36 @@
+/* [project]/src/components/artistInfo/LiveCard.module.css [app-client] (css) */
+.LiveCard-module__FQYguq__liveCard {
+  color: #fff;
+  background-color: #222;
+  border-radius: 8px;
+  flex-direction: column;
+  width: calc(31% - 15px);
+  margin: 10px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.LiveCard-module__FQYguq__thumbnail {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+}
+
+.LiveCard-module__FQYguq__info {
+  padding: 10px;
+}
+
+.LiveCard-module__FQYguq__dateTime {
+  color: #bbb;
+  margin-bottom: 5px;
+  font-size: .8em;
+}
+
+.LiveCard-module__FQYguq__title {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=src_components_artistInfo_LiveCard_module_css_e59ae46c._.single.css.map*/

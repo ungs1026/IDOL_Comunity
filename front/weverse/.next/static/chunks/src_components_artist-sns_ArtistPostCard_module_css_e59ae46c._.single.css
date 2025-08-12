@@ -1,0 +1,91 @@
+/* [project]/src/components/artist-sns/ArtistPostCard.module.css [app-client] (css) */
+.ArtistPostCard-module__V3QDva__artistPostCard {
+  gap: 15px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.ArtistPostCard-module__V3QDva__leftContent {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  display: flex;
+}
+
+.ArtistPostCard-module__V3QDva__artistImage {
+  object-fit: cover;
+  background: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.ArtistPostCard-module__V3QDva__date {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ArtistPostCard-module__V3QDva__month {
+  color: #888;
+  font-size: 12px;
+}
+
+.ArtistPostCard-module__V3QDva__rightContent {
+  flex-grow: 1;
+  position: relative;
+}
+
+.ArtistPostCard-module__V3QDva__messageBubble {
+  text-align: left;
+  background-color: #e0e0e0;
+  border-radius: 0 8px 8px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.ArtistPostCard-module__V3QDva__messageBubble:before {
+  content: "";
+  border-top: 0 solid rgba(0, 0, 0, 0);
+  border-bottom: 10px solid rgba(0, 0, 0, 0);
+  border-left: 0 solid rgba(0, 0, 0, 0);
+  border-right: 10px solid #e0e0e0;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+
+.ArtistPostCard-module__V3QDva__msgContent {
+  padding: 15px;
+}
+
+.ArtistPostCard-module__V3QDva__bubbleArtistName {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+}
+
+.ArtistPostCard-module__V3QDva__bubblePostContent {
+  margin-bottom: 10px;
+}
+
+.ArtistPostCard-module__V3QDva__bubbleImage {
+  border-radius: 8px;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10px;
+}
+
+.ArtistPostCard-module__V3QDva__bubblePostDateTime {
+  color: #888;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  display: block;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_ArtistPostCard_module_css_e59ae46c._.single.css.map*/

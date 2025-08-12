@@ -1,0 +1,59 @@
+/* [project]/src/components/artist-sns/media/MediaItemCard.module.css [app-client] (css) */
+.MediaItemCard-module__3rrajW__cardContainer {
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  height: 250px;
+  padding-bottom: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.MediaItemCard-module__3rrajW__thumbnailWrapper {
+  width: 100%;
+  height: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+.MediaItemCard-module__3rrajW__thumbnail {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MediaItemCard-module__3rrajW__duration {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 3px;
+  padding: 2px 5px;
+  font-size: .8em;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.MediaItemCard-module__3rrajW__title {
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: calc(100% - 20px);
+  margin: 10px 10px 5px;
+  font-size: 1em;
+  overflow: hidden;
+}
+
+.MediaItemCard-module__3rrajW__typeText {
+  color: #bbb;
+  text-align: left;
+  margin: 0 10px;
+  font-size: .9em;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_media_MediaItemCard_module_css_e59ae46c._.single.css.map*/

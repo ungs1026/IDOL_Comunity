@@ -1,0 +1,53 @@
+/* [project]/src/components/artist-sns/CommentCard.module.css [app-client] (css) */
+.CommentCard-module__V9-fBq__commentCard {
+  background-color: #dbdbdb;
+  border-radius: 15px 15px 0;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  padding: 15px;
+  display: flex;
+  position: relative;
+}
+
+.CommentCard-module__V9-fBq__commentCard:before {
+  content: "";
+  border-top: 0 solid rgba(0, 0, 0, 0);
+  border-bottom: 10px solid rgba(0, 0, 0, 0);
+  border-left: 0 solid rgba(0, 0, 0, 0);
+  border-right: 10px solid #dbdbdb;
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+  transform: rotate(180deg);
+}
+
+.CommentCard-module__V9-fBq__originalPost {
+  color: #555;
+  margin-bottom: 10px;
+  font-size: .9em;
+}
+
+.CommentCard-module__V9-fBq__divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.CommentCard-module__V9-fBq__commentContent {
+  color: #333;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.CommentCard-module__V9-fBq__commentDateTime {
+  color: #777;
+  text-align: left;
+  width: 100%;
+  font-size: .8em;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_CommentCard_module_css_e59ae46c._.single.css.map*/

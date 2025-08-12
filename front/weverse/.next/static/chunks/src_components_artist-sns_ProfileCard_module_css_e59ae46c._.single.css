@@ -1,0 +1,31 @@
+/* [project]/src/components/artist-sns/ProfileCard.module.css [app-client] (css) */
+.ProfileCard-module__r_gT3G__profileCard {
+  background-color: #fff;
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+
+.ProfileCard-module__r_gT3G__profileImage {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.ProfileCard-module__r_gT3G__nickname {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ProfileCard-module__r_gT3G__followerCount {
+  color: #888;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_ProfileCard_module_css_e59ae46c._.single.css.map*/

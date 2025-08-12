@@ -1,0 +1,48 @@
+/* [project]/src/components/artist-sns/StoryCard.module.css [app-client] (css) */
+.StoryCard-module__KfdSKq__storyCard {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  width: 130px;
+  display: flex;
+}
+
+.StoryCard-module__KfdSKq__storyImage {
+  z-index: 0;
+  border-radius: 8px;
+  width: 130px;
+  height: 180px;
+  margin-bottom: -25px;
+  position: relative;
+}
+
+.StoryCard-module__KfdSKq__artistImageContainer {
+  z-index: 1;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.StoryCard-module__KfdSKq__artistImage {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.StoryCard-module__KfdSKq__artistName {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_StoryCard_module_css_e59ae46c._.single.css.map*/

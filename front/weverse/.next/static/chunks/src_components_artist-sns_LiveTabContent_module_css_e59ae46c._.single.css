@@ -1,0 +1,24 @@
+/* [project]/src/components/artist-sns/LiveTabContent.module.css [app-client] (css) */
+.LiveTabContent-module__B97GJa__liveTabContainer {
+  color: #fff;
+  background-color: #000;
+}
+
+.LiveTabContent-module__B97GJa__contentSection {
+  padding: 20px;
+}
+
+.LiveTabContent-module__B97GJa__liveSectionTitle {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.LiveTabContent-module__B97GJa__liveVideoGrid {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_LiveTabContent_module_css_e59ae46c._.single.css.map*/

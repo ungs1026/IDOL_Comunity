@@ -1,0 +1,37 @@
+/* [project]/src/components/artistInfo/AnnouncementCard.module.css [app-client] (css) */
+.AnnouncementCard-module__aj4hGq__announcementCard {
+  color: #fff;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  display: flex;
+}
+
+.AnnouncementCard-module__aj4hGq__anon {
+  margin-right: 1vw;
+}
+
+.AnnouncementCard-module__aj4hGq__announcementTitle {
+  flex-grow: 1;
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.AnnouncementCard-module__aj4hGq__arrowButton {
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0 5px;
+  font-size: 1.2em;
+}
+
+.AnnouncementCard-module__aj4hGq__arrowButton:hover {
+  color: #ccc;
+}
+
+/*# sourceMappingURL=src_components_artistInfo_AnnouncementCard_module_css_e59ae46c._.single.css.map*/

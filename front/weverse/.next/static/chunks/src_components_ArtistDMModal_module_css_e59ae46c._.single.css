@@ -1,0 +1,154 @@
+/* [project]/src/components/ArtistDMModal.module.css [app-client] (css) */
+.ArtistDMModal-module__7Zio1W__overlay {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, .7);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.ArtistDMModal-module__7Zio1W__modal {
+  color: #333;
+  background-color: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  max-height: 80vh;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+}
+
+.ArtistDMModal-module__7Zio1W__closeButton {
+  cursor: pointer;
+  color: #fff;
+  z-index: 1001;
+  background: none;
+  border: none;
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+  right: -30px;
+}
+
+.ArtistDMModal-module__7Zio1W__header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.ArtistDMModal-module__7Zio1W__header h2 {
+  color: #333;
+  margin: 0;
+}
+
+.ArtistDMModal-module__7Zio1W__searchContainer {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.ArtistDMModal-module__7Zio1W__searchInputWrapper {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.ArtistDMModal-module__7Zio1W__searchIconInsideInput {
+  color: #888;
+  position: absolute;
+  left: 10px;
+}
+
+.ArtistDMModal-module__7Zio1W__searchInput {
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  width: 100%;
+  padding: 8px 8px 8px 35px;
+}
+
+.ArtistDMModal-module__7Zio1W__searchButton {
+  cursor: pointer;
+  color: #333;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+.ArtistDMModal-module__7Zio1W__allArtistsScroll {
+  white-space: nowrap;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.ArtistDMModal-module__7Zio1W__artistNameTag {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: .9em;
+  transition: background-color .3s;
+  display: inline-block;
+}
+
+.ArtistDMModal-module__7Zio1W__activeTag {
+  color: #fff;
+  background-color: #0070f3;
+}
+
+.ArtistDMModal-module__7Zio1W__selectedArtistInfo {
+  text-align: left;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.ArtistDMModal-module__7Zio1W__selectedArtistInfo > p {
+  margin-bottom: 15px;
+  font-size: min(2vw, 24px);
+  font-weight: bold;
+}
+
+.ArtistDMModal-module__7Zio1W__artistDetailGrid {
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 20px;
+  display: grid;
+}
+
+.ArtistDMModal-module__7Zio1W__artistDetail {
+  text-align: center;
+}
+
+.ArtistDMModal-module__7Zio1W__artistImage {
+  background: #e6e6e6;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ArtistDMModal-module__7Zio1W__artistImage img {
+  object-fit: cover;
+}
+
+.ArtistDMModal-module__7Zio1W__artistDetailName {
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=src_components_ArtistDMModal_module_css_e59ae46c._.single.css.map*/

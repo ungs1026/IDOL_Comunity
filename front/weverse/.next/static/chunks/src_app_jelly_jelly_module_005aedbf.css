@@ -1,0 +1,385 @@
+/* [project]/src/app/jelly/jelly.module.css [app-client] (css) */
+.jelly-module__C-9TLW__pageContainer {
+  background-color: #fff;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  display: flex;
+}
+
+.jelly-module__C-9TLW__sidebar {
+  background-color: #f8f9fa;
+  border-right: 1px solid #e9ecef;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 280px;
+  padding: 2rem;
+  display: flex;
+}
+
+.jelly-module__C-9TLW__shopTitle {
+  margin-bottom: 2rem;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.jelly-module__C-9TLW__myJellyBox {
+  margin-bottom: 2rem;
+}
+
+.jelly-module__C-9TLW__myJellyBox p {
+  color: #495057;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.jelly-module__C-9TLW__jellyAmount {
+  align-items: center;
+  gap: .5rem;
+  font-size: 48px;
+  font-weight: 800;
+  display: flex;
+}
+
+.jelly-module__C-9TLW__jellyIconLarge {
+  color: #ffc107;
+}
+
+.jelly-module__C-9TLW__jellyDetails {
+  border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+}
+
+.jelly-module__C-9TLW__detailItem {
+  color: #495057;
+  justify-content: space-between;
+  margin-bottom: .5rem;
+  font-size: 14px;
+  display: flex;
+}
+
+.jelly-module__C-9TLW__detailItem span:last-child {
+  font-weight: 600;
+}
+
+.jelly-module__C-9TLW__chargeLimit {
+  color: #495057;
+  font-size: 14px;
+}
+
+.jelly-module__C-9TLW__chargeLimit p {
+  margin: .5rem 0 0;
+  font-size: 16px;
+}
+
+.jelly-module__C-9TLW__sidebarFooter {
+  color: #adb5bd;
+  margin-top: auto;
+  font-size: 12px;
+}
+
+.jelly-module__C-9TLW__weverseLogo {
+  color: #ced4da;
+  margin-bottom: .5rem;
+  font-weight: 800;
+}
+
+.jelly-module__C-9TLW__mainContent {
+  flex-grow: 1;
+  padding: 2rem 4rem;
+  overflow-y: auto;
+}
+
+.jelly-module__C-9TLW__mainNav {
+  border-bottom: 1px solid #e9ecef;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.jelly-module__C-9TLW__mainNav button {
+  cursor: pointer;
+  color: #868e96;
+  background: none;
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  padding: .5rem .25rem 1rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.jelly-module__C-9TLW__mainNav button.jelly-module__C-9TLW__active {
+  color: #343a40;
+  border-bottom-color: #343a40;
+  font-weight: 700;
+}
+
+.jelly-module__C-9TLW__sectionTitle {
+  margin-bottom: 2rem;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.jelly-module__C-9TLW__productList {
+  gap: 1rem;
+  display: grid;
+}
+
+.jelly-module__C-9TLW__productItem {
+  cursor: pointer;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  transition: border-color .2s, box-shadow .2s;
+  display: flex;
+  position: relative;
+}
+
+.jelly-module__C-9TLW__productItem:hover {
+  border-color: #adb5bd;
+}
+
+.jelly-module__C-9TLW__productItem.jelly-module__C-9TLW__selected {
+  border-color: #00c4b4;
+  box-shadow: 0 0 0 2px rgba(0, 196, 180, .3);
+}
+
+.jelly-module__C-9TLW__bestOffer.jelly-module__C-9TLW__selected {
+  border-color: #00c4b4;
+}
+
+.jelly-module__C-9TLW__bestOfferBadge {
+  color: #fff;
+  background-color: #00c4b4;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+}
+
+.jelly-module__C-9TLW__productInfo {
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+}
+
+.jelly-module__C-9TLW__jellyIcon {
+  color: #ffc107;
+  font-size: 24px;
+}
+
+.jelly-module__C-9TLW__productName {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.jelly-module__C-9TLW__bonusJelly {
+  color: #007bff;
+  margin: 4px 0 0;
+  font-size: 12px;
+}
+
+.jelly-module__C-9TLW__productPrice {
+  text-align: right;
+}
+
+.jelly-module__C-9TLW__productPrice > span:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+}
+
+.jelly-module__C-9TLW__benefitTag {
+  color: #dc3545;
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.jelly-module__C-9TLW__infoSection {
+  color: #495057;
+  border-top: 1px solid #e9ecef;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.jelly-module__C-9TLW__infoSection h3 {
+  margin-bottom: .5rem;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.jelly-module__C-9TLW__infoSection ul {
+  padding-left: 1rem;
+  list-style-type: "• ";
+}
+
+.jelly-module__C-9TLW__historyTabs {
+  border-bottom: 1px solid #e9ecef;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.jelly-module__C-9TLW__historyTabs > div {
+  display: flex;
+}
+
+.jelly-module__C-9TLW__historyTabs button {
+  cursor: pointer;
+  color: #868e96;
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: none;
+  padding: .75rem 1rem;
+  font-size: 14px;
+}
+
+.jelly-module__C-9TLW__historyTabs button.jelly-module__C-9TLW__active {
+  color: #343a40;
+  background: #fff;
+  border-color: #e9ecef;
+  border-radius: 8px 8px 0 0;
+  font-weight: 600;
+}
+
+.jelly-module__C-9TLW__historyTabs select {
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.jelly-module__C-9TLW__emptyHistory {
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 6rem 0;
+}
+
+.jelly-module__C-9TLW__emptyHistory p {
+  color: #868e96;
+  margin-bottom: 1.5rem;
+  font-size: 16px;
+}
+
+.jelly-module__C-9TLW__emptyHistory button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #00c4b4;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.jelly-module__C-9TLW__modalOverlay {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, .6);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.jelly-module__C-9TLW__modalContent {
+  background-color: #fff;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 400px;
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}
+
+.jelly-module__C-9TLW__modalTitle {
+  text-align: center;
+  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.jelly-module__C-9TLW__modalSection {
+  margin-bottom: 24px;
+}
+
+.jelly-module__C-9TLW__modalSectionTitle {
+  color: #868e96;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.jelly-module__C-9TLW__paymentProduct {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  display: flex;
+}
+
+.jelly-module__C-9TLW__paymentPrice {
+  color: #495057;
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.jelly-module__C-9TLW__paymentOption {
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+}
+
+.jelly-module__C-9TLW__paymentOption .jelly-module__C-9TLW__checkIcon {
+  color: #00c4b4;
+  font-size: 20px;
+}
+
+.jelly-module__C-9TLW__paymentOption img {
+  width: 24px;
+  height: 24px;
+}
+
+.jelly-module__C-9TLW__paymentButton {
+  color: #adb5bd;
+  cursor: not-allowed;
+  background-color: #e9ecef;
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.jelly-module__C-9TLW__modalFooter {
+  text-align: center;
+  color: #ced4da;
+  margin-top: 24px;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=src_app_jelly_jelly_module_005aedbf.css.map*/

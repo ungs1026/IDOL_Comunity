@@ -1,0 +1,103 @@
+/* [project]/src/app/shop/Shop.module.css [app-client] (css) */
+.Shop-module__z430ba__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Noto Sans KR, sans-serif;
+}
+
+.Shop-module__z430ba__section {
+  background-color: #fff;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.Shop-module__z430ba__sectionHeader {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.Shop-module__z430ba__sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.Shop-module__z430ba__recommendedArtistsList {
+  text-align: center;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 20px;
+  display: grid;
+}
+
+.Shop-module__z430ba__artistItem {
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 80px;
+  display: flex;
+}
+
+.Shop-module__z430ba__artistLogo {
+  object-fit: contain;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 4px;
+  transition: transform .2s;
+}
+
+.Shop-module__z430ba__artistItem:hover .Shop-module__z430ba__artistLogo {
+  transform: scale(1.05);
+}
+
+.Shop-module__z430ba__artistName {
+  word-break: keep-all;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.Shop-module__z430ba__searchBar {
+  cursor: pointer;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 12px;
+  font-weight: 500;
+  transition: background-color .2s;
+  display: flex;
+}
+
+.Shop-module__z430ba__searchBar:hover {
+  background-color: #f9f9f9;
+}
+
+.Shop-module__z430ba__searchBar span {
+  margin-left: 8px;
+}
+
+.Shop-module__z430ba__mobileOnly {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .Shop-module__z430ba__desktopOnly {
+    display: none;
+  }
+
+  .Shop-module__z430ba__mobileOnly {
+    display: block;
+  }
+
+  .Shop-module__z430ba__section {
+    padding: 15px;
+  }
+}
+
+/*# sourceMappingURL=src_app_shop_Shop_module_css_e59ae46c._.single.css.map*/

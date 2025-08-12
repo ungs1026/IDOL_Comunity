@@ -1,0 +1,39 @@
+/* [project]/src/styles/RecommendedArtistCard.module.css [app-client] (css) */
+.RecommendedArtistCard-module__-6KjKq__card {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 50px;
+  align-items: center;
+  height: 90px;
+  padding: 10px;
+  transition: box-shadow .3s;
+  display: flex;
+}
+
+.RecommendedArtistCard-module__-6KjKq__card:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+
+.RecommendedArtistCard-module__-6KjKq__card img {
+  object-fit: contain;
+  background: rgba(155, 155, 155, .714);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-right: 5px;
+}
+
+.RecommendedArtistCard-module__-6KjKq__logo {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.RecommendedArtistCard-module__-6KjKq__name {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=src_styles_RecommendedArtistCard_module_css_e59ae46c._.single.css.map*/

@@ -1,0 +1,29 @@
+/* [project]/src/styles/RecommendedArtistGrid.module.css [app-client] (css) */
+.RecommendedArtistGrid-module__2_3MLq__grid {
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 20px;
+  display: grid;
+}
+
+.RecommendedArtistGrid-module__2_3MLq__refreshButton {
+  cursor: pointer;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  font-size: 24px;
+  transition: box-shadow .3s;
+  display: flex;
+}
+
+.RecommendedArtistGrid-module__2_3MLq__refreshButton:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+
+/*# sourceMappingURL=src_styles_RecommendedArtistGrid_module_css_e59ae46c._.single.css.map*/

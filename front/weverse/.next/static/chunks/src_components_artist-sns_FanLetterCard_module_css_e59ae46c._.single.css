@@ -1,0 +1,46 @@
+/* [project]/src/components/artist-sns/FanLetterCard.module.css [app-client] (css) */
+.FanLetterCard-module__4mUk6a__fanLetterCard {
+  background-color: #fff;
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+
+.FanLetterCard-module__4mUk6a__fanIcon {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.FanLetterCard-module__4mUk6a__envelopeIcon {
+  color: #8970d0;
+  font-size: 20px;
+}
+
+.FanLetterCard-module__4mUk6a__fanLetterText {
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.FanLetterCard-module__4mUk6a__sendButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #8970d0;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color .3s;
+}
+
+.FanLetterCard-module__4mUk6a__sendButton:hover {
+  background-color: #7a5bbd;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_FanLetterCard_module_css_e59ae46c._.single.css.map*/

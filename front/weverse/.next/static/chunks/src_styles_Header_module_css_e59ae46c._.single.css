@@ -1,0 +1,33 @@
+/* [project]/src/styles/Header.module.css [app-client] (css) */
+.Header-module__KppamW__header {
+  z-index: 1000;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Header-module__KppamW__logo a {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Header-module__KppamW__nav a {
+  color: #000;
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
+
+.Header-module__KppamW__nav a:hover {
+  color: #555;
+}
+
+/*# sourceMappingURL=src_styles_Header_module_css_e59ae46c._.single.css.map*/

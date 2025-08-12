@@ -1,0 +1,151 @@
+/* [project]/src/styles/ArtistStorePage.module.css [app-client] (css) */
+.ArtistStorePage-module__MH0P5q__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.ArtistStorePage-module__MH0P5q__notFound {
+  text-align: center;
+  padding: 5rem 0;
+  font-size: 1.2rem;
+}
+
+.ArtistStorePage-module__MH0P5q__contentGrid {
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+  display: grid;
+}
+
+.ArtistStorePage-module__MH0P5q__productsSection {
+  width: 100%;
+}
+
+.ArtistStorePage-module__MH0P5q__sectionTitle {
+  border-bottom: 2px solid #000;
+  margin-bottom: 1rem;
+  padding-bottom: .5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.ArtistStorePage-module__MH0P5q__tabs {
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.ArtistStorePage-module__MH0P5q__tabButton {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: .5rem 1rem;
+  font-size: .9rem;
+  transition: all .2s ease-in-out;
+}
+
+.ArtistStorePage-module__MH0P5q__tabButton.ArtistStorePage-module__MH0P5q__active, .ArtistStorePage-module__MH0P5q__tabButton:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+.ArtistStorePage-module__MH0P5q__productGrid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem 1rem;
+  display: grid;
+}
+
+.ArtistStorePage-module__MH0P5q__productCard {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ArtistStorePage-module__MH0P5q__productImageWrapper {
+  aspect-ratio: 1;
+  background-color: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.ArtistStorePage-module__MH0P5q__productImage {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.ArtistStorePage-module__MH0P5q__productInfo {
+  padding: .8rem .2rem;
+}
+
+.ArtistStorePage-module__MH0P5q__productName {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: .3rem;
+  font-size: .9rem;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+.ArtistStorePage-module__MH0P5q__productPrice {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.ArtistStorePage-module__MH0P5q__productPrice span {
+  margin-left: 2px;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.ArtistStorePage-module__MH0P5q__moreButtonWrapper {
+  justify-content: center;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.ArtistStorePage-module__MH0P5q__moreButton {
+  cursor: pointer;
+  text-align: center;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: .8rem 3rem;
+  text-decoration: none;
+  transition: background-color .2s;
+}
+
+.ArtistStorePage-module__MH0P5q__moreButton:hover {
+  background-color: #f5f5f5;
+}
+
+.ArtistStorePage-module__MH0P5q__sidebar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .ArtistStorePage-module__MH0P5q__productGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .ArtistStorePage-module__MH0P5q__contentGrid {
+    grid-template-columns: 2.5fr 1fr;
+  }
+
+  .ArtistStorePage-module__MH0P5q__sidebar {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=src_styles_ArtistStorePage_module_css_e59ae46c._.single.css.map*/

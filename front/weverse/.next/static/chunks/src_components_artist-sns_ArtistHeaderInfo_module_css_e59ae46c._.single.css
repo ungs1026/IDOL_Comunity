@@ -1,0 +1,32 @@
+/* [project]/src/components/artist-sns/ArtistHeaderInfo.module.css [app-client] (css) */
+.ArtistHeaderInfo-module__2XhGlq__artistHeaderInfo {
+  align-items: center;
+  gap: 15px;
+  display: flex;
+}
+
+.ArtistHeaderInfo-module__2XhGlq__artistImage {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.ArtistHeaderInfo-module__2XhGlq__infoText {
+  text-align: left;
+  flex-direction: column;
+  display: flex;
+}
+
+.ArtistHeaderInfo-module__2XhGlq__artistName {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ArtistHeaderInfo-module__2XhGlq__artistBirthday {
+  color: #888;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_ArtistHeaderInfo_module_css_e59ae46c._.single.css.map*/

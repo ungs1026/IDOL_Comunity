@@ -1,0 +1,228 @@
+/* [project]/src/app/mypage/settings/settings.module.css [app-client] (css) */
+.settings-module__gMtcNa__container {
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 60px);
+  padding: 2rem 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+.settings-module__gMtcNa__content {
+  background-color: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+}
+
+.settings-module__gMtcNa__section {
+  border-bottom: 1px solid #f1f3f5;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.settings-module__gMtcNa__section:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.settings-module__gMtcNa__sectionTitle {
+  margin-bottom: 2rem;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.settings-module__gMtcNa__infoGrid {
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  display: grid;
+}
+
+.settings-module__gMtcNa__infoRow {
+  grid-template-columns: 120px 1fr auto;
+  align-items: center;
+  font-size: 15px;
+  display: grid;
+}
+
+.settings-module__gMtcNa__infoLabel {
+  color: #868e96;
+  font-weight: 500;
+}
+
+.settings-module__gMtcNa__infoValue {
+  color: #212529;
+  font-weight: 500;
+}
+
+.settings-module__gMtcNa__changeButton {
+  color: #007bff;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #007bff;
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.settings-module__gMtcNa__snsList {
+  gap: 1rem;
+  display: grid;
+}
+
+.settings-module__gMtcNa__snsItem {
+  grid-template-columns: 30px 1fr auto;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  display: grid;
+}
+
+.settings-module__gMtcNa__connectButton {
+  color: #fff;
+  cursor: pointer;
+  background: #007bff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 600;
+}
+
+.settings-module__gMtcNa__serviceItem {
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  display: flex;
+}
+
+.settings-module__gMtcNa__serviceItem img {
+  width: 40px;
+  height: 40px;
+}
+
+.settings-module__gMtcNa__serviceName {
+  margin: 0;
+  font-weight: 600;
+}
+
+.settings-module__gMtcNa__serviceDate {
+  color: #868e96;
+  margin: 4px 0 0;
+  font-size: 13px;
+}
+
+.settings-module__gMtcNa__serviceButton {
+  color: #dc3545;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #dc3545;
+  border-radius: 8px;
+  margin-left: auto;
+  padding: 8px 16px;
+  font-weight: 600;
+}
+
+.settings-module__gMtcNa__settingRow {
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.settings-module__gMtcNa__settingRow:last-child {
+  margin-bottom: 0;
+}
+
+.settings-module__gMtcNa__settingLabel {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.settings-module__gMtcNa__settingDesc {
+  color: #868e96;
+  max-width: 500px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.settings-module__gMtcNa__toggleSwitch {
+  flex-shrink: 0;
+  width: 50px;
+  height: 28px;
+  margin-left: 2rem;
+  display: inline-block;
+  position: relative;
+}
+
+.settings-module__gMtcNa__toggleSwitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.settings-module__gMtcNa__slider {
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: all .4s;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.settings-module__gMtcNa__slider:before {
+  content: "";
+  background-color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  transition: all .4s;
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+}
+
+input:checked + .settings-module__gMtcNa__slider {
+  background-color: #007bff;
+}
+
+input:checked + .settings-module__gMtcNa__slider:before {
+  transform: translateX(22px);
+}
+
+.settings-module__gMtcNa__policyList {
+  gap: .5rem;
+  display: grid;
+}
+
+.settings-module__gMtcNa__policyItem {
+  color: #212529;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+}
+
+.settings-module__gMtcNa__deleteAccount {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.settings-module__gMtcNa__deleteAccount a {
+  color: #868e96;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=src_app_mypage_settings_settings_module_6bebefc5.css.map*/

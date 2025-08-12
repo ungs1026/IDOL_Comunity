@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/artist-sns/ArtistInfoCard.module.css"],"sourcesContent":["\r\n.artistInfoCard {\r\n  width: 100%;\r\n  height: 300px;\r\n  background-size: cover;\r\n  background-position: center;\r\n  border-radius: 8px;\r\n  position: relative;\r\n  display: flex;\r\n  align-items: flex-end;\r\n  padding: 20px;\r\n  color: white;\r\n  overflow: hidden;\r\n}\r\n\r\n.overlay {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));\r\n  border-radius: 8px;\r\n}\r\n\r\n.content {\r\n  position: relative;\r\n  z-index: 1;\r\n  display: flex;\r\n  flex-direction: column;\r\n  width: 100%;\r\n}\r\n\r\n.memberCount {\r\n  font-size: 14px;\r\n  margin-bottom: 5px;\r\n}\r\n\r\n.artistName {\r\n  font-size: 24px;\r\n  font-weight: bold;\r\n  margin: 0;\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;;;;;;;;;;AAcA;;;;;;;;;;AAUA;;;;;;;;AAQA;;;;;AAKA"}}]
+}

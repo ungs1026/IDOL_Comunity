@@ -1,0 +1,171 @@
+/* [project]/src/components/artist-sns/ArtistSNSOverview.module.css [app-client] (css) */
+.ArtistSNSOverview-module__Mx04Wq__container {
+  color: #000;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  display: flex;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__section1 {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__followButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #8970d0;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color .3s;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__followButton:hover {
+  background-color: #7a5bbd;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__section2 {
+  gap: 20px;
+  display: flex;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__section2 .ArtistSNSOverview-module__Mx04Wq__leftSection {
+  border-radius: 8px;
+  flex: 2;
+  padding-right: 10px;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__postInputContainer {
+  background-color: #fff;
+  border-radius: 25px;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+
+.ArtistSNSOverview-module__Mx04Wq__profileImage {
+  background: #a1a1a1;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__postInput {
+  color: #000;
+  background: #fff;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__iconButtons {
+  gap: 10px;
+  display: flex;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__iconButton {
+  cursor: pointer;
+  color: #8970d0;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__subTabNav {
+  border-bottom: 1px solid #eee;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__subTabButton {
+  cursor: pointer;
+  color: #888;
+  background: none;
+  border: none;
+  flex: 1;
+  padding: 10px 0;
+  font-size: 16px;
+  transition: color .3s;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__subTabButton.ArtistSNSOverview-module__Mx04Wq__activeSubTab {
+  color: #8970d0;
+  border-bottom: 2px solid #8970d0;
+  font-weight: bold;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__sortContainer {
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__sortSelect {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__postList {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__commentsSection {
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__momentSection {
+  margin-bottom: 20px;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__momentTitle {
+  color: #333;
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__momentImages {
+  gap: 10px;
+  display: flex;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__momentImage {
+  background-color: #ccc;
+  border-radius: 8px;
+  flex: 1;
+  height: 150px;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__bannerImage {
+  border-radius: 8px;
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+}
+
+.ArtistSNSOverview-module__Mx04Wq__section2 .ArtistSNSOverview-module__Mx04Wq__rightSection {
+  flex: 1;
+  padding-left: 10px;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_ArtistSNSOverview_module_css_e59ae46c._.single.css.map*/

@@ -1,0 +1,106 @@
+/* [project]/src/components/shop/MainBanner.module.css [app-client] (css) */
+.MainBanner-module__TfV_Nq__bannerContainer {
+  border-radius: 16px;
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.MainBanner-module__TfV_Nq__mainBanner {
+  color: #fff;
+  background-color: #1a1a1a;
+  align-items: center;
+  height: 400px;
+  padding: 0 5%;
+  display: flex;
+  position: relative;
+}
+
+.MainBanner-module__TfV_Nq__bannerBg {
+  opacity: .5;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MainBanner-module__TfV_Nq__bannerContent {
+  z-index: 2;
+  align-items: center;
+  gap: 40px;
+  display: flex;
+  position: relative;
+}
+
+.MainBanner-module__TfV_Nq__bannerAlbumArt {
+  object-fit: cover;
+  border-radius: 8px;
+  width: 280px;
+  height: 280px;
+}
+
+.MainBanner-module__TfV_Nq__bannerText h2 {
+  margin: 0 0 10px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.MainBanner-module__TfV_Nq__bannerText p {
+  opacity: .9;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 767px) {
+  .MainBanner-module__TfV_Nq__mainBanner {
+    aspect-ratio: 4 / 5;
+    align-items: flex-end;
+    height: auto;
+    padding: 10%;
+  }
+
+  .MainBanner-module__TfV_Nq__bannerBg {
+    opacity: 1;
+  }
+
+  .MainBanner-module__TfV_Nq__bannerContent {
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .MainBanner-module__TfV_Nq__bannerAlbumArt {
+    display: none;
+  }
+
+  .MainBanner-module__TfV_Nq__bannerText h2 {
+    font-size: 1.5rem;
+  }
+
+  .MainBanner-module__TfV_Nq__bannerText p {
+    opacity: .8;
+    font-size: .9rem;
+  }
+
+  .MainBanner-module__TfV_Nq__bannerContainer .swiper-button-next {
+    display: none;
+  }
+
+  .MainBanner-module__TfV_Nq__bannerContainer .swiper-button-prev {
+    display: none;
+  }
+
+  .MainBanner-module__TfV_Nq__bannerContainer .swiper-pagination-bullet {
+    background-color: rgba(255, 255, 255, .8);
+  }
+
+  .MainBanner-module__TfV_Nq__bannerContainer .swiper-pagination-bullet-active {
+    background-color: #fff;
+  }
+}
+
+/*# sourceMappingURL=src_components_shop_MainBanner_module_css_e59ae46c._.single.css.map*/

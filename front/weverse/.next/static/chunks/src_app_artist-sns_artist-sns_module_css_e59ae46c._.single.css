@@ -1,0 +1,103 @@
+/* [project]/src/app/artist-sns/artist-sns.module.css [app-client] (css) */
+.artist-sns-module__nKfera__artistName {
+  color: #fff;
+  padding-left: 20px;
+  font-size: 1.5em;
+}
+
+.artist-sns-module__nKfera__container {
+  background-color: #f0f2f5;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.artist-sns-module__nKfera__mediaActiveContainer {
+  background-color: #000;
+}
+
+.artist-sns-module__nKfera__liveActiveContainer {
+  background-color: #fff;
+}
+
+.artist-sns-module__nKfera__detailViewActiveContainer {
+  background-color: #000;
+}
+
+.artist-sns-module__nKfera__artistNameHeader {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+
+.artist-sns-module__nKfera__snsNav {
+  z-index: 100;
+  background-color: #8970d0;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.artist-sns-module__nKfera__navButton {
+  color: #dcd4f1;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color .3s, color .3s;
+}
+
+.artist-sns-module__nKfera__navButton.artist-sns-module__nKfera__active {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.artist-sns-module__nKfera__shopButton {
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+}
+
+.artist-sns-module__nKfera__content {
+  text-align: center;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 30px 30px;
+}
+
+.artist-sns-module__nKfera__mediaActiveContainer .artist-sns-module__nKfera__content, .artist-sns-module__nKfera__liveActiveContainer .artist-sns-module__nKfera__content, .artist-sns-module__nKfera__detailViewActiveContainer .artist-sns-module__nKfera__content {
+  width: 100%;
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.artist-sns-module__nKfera__contentSection {
+  padding: 20px;
+}
+
+.artist-sns-module__nKfera__liveSectionTitle {
+  color: #333;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.artist-sns-module__nKfera__liveVideoGrid {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-content: center;
+  gap: 20px;
+  display: grid;
+}
+
+/*# sourceMappingURL=src_app_artist-sns_artist-sns_module_css_e59ae46c._.single.css.map*/

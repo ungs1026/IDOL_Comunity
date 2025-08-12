@@ -1,0 +1,56 @@
+/* [project]/src/components/shop/NoticeSection.module.css [app-client] (css) */
+.NoticeSection-module__5vFtDW__section {
+  background-color: #fff;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+.NoticeSection-module__5vFtDW__sectionHeader {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.NoticeSection-module__5vFtDW__sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.NoticeSection-module__5vFtDW__viewMore {
+  color: #555;
+  font-size: .9rem;
+}
+
+.NoticeSection-module__5vFtDW__noticeList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.NoticeSection-module__5vFtDW__noticeList li a {
+  border-bottom: 1px solid #f0f0f0;
+  align-items: center;
+  padding: 12px 0;
+  display: flex;
+}
+
+.NoticeSection-module__5vFtDW__noticeList li:last-child a {
+  border-bottom: none;
+}
+
+.NoticeSection-module__5vFtDW__noticeCategory {
+  color: #5a31f4;
+  flex-shrink: 0;
+  margin-right: 15px;
+  font-weight: 700;
+}
+
+.NoticeSection-module__5vFtDW__noticeTitle {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=src_components_shop_NoticeSection_module_css_e59ae46c._.single.css.map*/

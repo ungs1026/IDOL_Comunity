@@ -1,0 +1,115 @@
+/* [project]/src/components/artist-sns/media/MediaTabContent.module.css [app-client] (css) */
+.MediaTabContent-module__Daoxgq__mediaTabContainer {
+  color: #fff;
+  background-color: #000;
+}
+
+.MediaTabContent-module__Daoxgq__mediaTabNav {
+  background: #987de8;
+  border-bottom: 1px solid #eee;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  display: flex;
+}
+
+.MediaTabContent-module__Daoxgq__navButton {
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  border: none;
+  padding: 0 15px;
+  font-size: 16px;
+  transition: color .3s;
+}
+
+.MediaTabContent-module__Daoxgq__navButton:hover {
+  color: #ccc;
+}
+
+.MediaTabContent-module__Daoxgq__navButton.MediaTabContent-module__Daoxgq__active {
+  color: #0070f3;
+  border-bottom: 2px solid #0070f3;
+  font-weight: bold;
+}
+
+.MediaTabContent-module__Daoxgq__homeSubNav {
+  justify-content: center;
+  gap: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  display: flex;
+}
+
+.MediaTabContent-module__Daoxgq__homeSubNav .MediaTabContent-module__Daoxgq__navButton {
+  background: #2e2e2e;
+  border-radius: 16px;
+  padding: 10px 15px;
+}
+
+.MediaTabContent-module__Daoxgq__homeSubNav .MediaTabContent-module__Daoxgq__navButton.MediaTabContent-module__Daoxgq__active {
+  color: #fff;
+  border-bottom: 0;
+  font-weight: bold;
+}
+
+.MediaTabContent-module__Daoxgq__homeContentSections {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.MediaTabContent-module__Daoxgq__section {
+  color: #fff;
+  background-color: #222;
+  border: 1px solid #333;
+  padding: 15px;
+}
+
+.MediaTabContent-module__Daoxgq__sectionHeader {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.MediaTabContent-module__Daoxgq__sectionTitle {
+  text-align: left;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.MediaTabContent-module__Daoxgq__moreButton {
+  color: #0070f3;
+  cursor: pointer;
+  opacity: 0;
+  background: none;
+  border: none;
+  font-size: .9em;
+  transition: opacity .3s;
+}
+
+.MediaTabContent-module__Daoxgq__section:hover .MediaTabContent-module__Daoxgq__moreButton {
+  opacity: 1;
+}
+
+.MediaTabContent-module__Daoxgq__mediaCardGrid {
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.MediaTabContent-module__Daoxgq__viewAllMediaButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0070f3;
+  border: none;
+  align-self: flex-start;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_media_MediaTabContent_module_css_e59ae46c._.single.css.map*/

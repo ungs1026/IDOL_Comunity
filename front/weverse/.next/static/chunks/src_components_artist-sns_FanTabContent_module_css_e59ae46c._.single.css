@@ -1,0 +1,200 @@
+/* [project]/src/components/artist-sns/FanTabContent.module.css [app-client] (css) */
+.FanTabContent-module__rd6RwW__postInputContainer {
+  background-color: #fff;
+  border-radius: 25px;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+
+.FanTabContent-module__rd6RwW__profileImage {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.FanTabContent-module__rd6RwW__postInput {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.FanTabContent-module__rd6RwW__iconButtons {
+  gap: 10px;
+  display: flex;
+}
+
+.FanTabContent-module__rd6RwW__iconButton {
+  cursor: pointer;
+  color: #8970d0;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+.FanTabContent-module__rd6RwW__sortContainer {
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.FanTabContent-module__rd6RwW__sortSelect {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.FanTabContent-module__rd6RwW__fanContainer {
+  width: 100%;
+  position: relative;
+}
+
+.FanTabContent-module__rd6RwW__swiperContainer {
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+}
+
+.FanTabContent-module__rd6RwW__swiperSection {
+  width: 100%;
+}
+
+.FanTabContent-module__rd6RwW__post {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  height: 120px;
+  padding: 20px;
+}
+
+.FanTabContent-module__rd6RwW__mainContent {
+  gap: 20px;
+  display: flex;
+}
+
+.FanTabContent-module__rd6RwW__leftSection {
+  border-radius: 8px;
+  flex: 2;
+  padding: 20px;
+}
+
+.FanTabContent-module__rd6RwW__rightSection {
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+  display: flex;
+}
+
+.FanTabContent-module__rd6RwW__postList {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.swiper-button-prev {
+  color: #8970d0;
+  width: 44px;
+  height: 44px;
+  margin-top: 24px;
+  position: static;
+}
+
+.swiper-button-next {
+  color: #8970d0;
+  width: 44px;
+  height: 44px;
+  margin-top: 24px;
+  position: static;
+}
+
+.swiper-button-prev:after {
+  font-weight: bold;
+  font-size: 24px !important;
+}
+
+.swiper-button-next:after {
+  font-weight: bold;
+  font-size: 24px !important;
+}
+
+.FanTabContent-module__rd6RwW__artistInfoCard {
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  align-items: flex-end;
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.FanTabContent-module__rd6RwW__overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.FanTabContent-module__rd6RwW__content {
+  z-index: 1;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.FanTabContent-module__rd6RwW__memberCount {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.FanTabContent-module__rd6RwW__artistName {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.FanTabContent-module__rd6RwW__noticeSection {
+  text-align: left;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+
+.FanTabContent-module__rd6RwW__noticeTitle {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.FanTabContent-module__rd6RwW__noticeList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.FanTabContent-module__rd6RwW__noticeList li {
+  color: #555;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.FanTabContent-module__rd6RwW__noticeList li:last-child {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_FanTabContent_module_css_e59ae46c._.single.css.map*/

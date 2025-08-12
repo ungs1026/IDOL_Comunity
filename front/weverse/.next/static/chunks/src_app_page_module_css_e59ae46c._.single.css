@@ -1,0 +1,90 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__page {
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+}
+
+.page-module___8aEwW__nav {
+  z-index: 1000;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 0 24px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.page-module___8aEwW__logo {
+  font-weight: bold;
+}
+
+.page-module___8aEwW__navIcons {
+  gap: 16px;
+  display: flex;
+}
+
+.page-module___8aEwW__main {
+  background: #fff;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.page-module___8aEwW__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+}
+
+.page-module___8aEwW__topSection, .page-module___8aEwW__middleSection, .page-module___8aEwW__bottomSection {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+}
+
+.page-module___8aEwW__adBanner {
+  background-color: #f0f0f0;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+}
+
+.page-module___8aEwW__content {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.page-module___8aEwW__refreshButton {
+  cursor: pointer;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 24px;
+  transition: box-shadow .3s;
+  display: flex;
+}
+
+.page-module___8aEwW__refreshButton:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+
+.page-module___8aEwW__footer {
+  color: #fff;
+  text-align: center;
+  background-color: #333;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=src_app_page_module_css_e59ae46c._.single.css.map*/

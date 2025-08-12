@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/artist-sns/LiveTabContent.module.css"],"sourcesContent":[".liveTabContainer {\r\n  background-color: black;\r\n  color: white;\r\n}\r\n\r\n.contentSection {\r\n  padding: 20px;\r\n}\r\n\r\n.liveSectionTitle {\r\n  font-size: 1.5rem;\r\n  margin-bottom: 20px;\r\n  text-align: left;\r\n}\r\n\r\n.liveVideoGrid {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  gap: 20px;\r\n  justify-content: flex-start;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;AAIA;;;;;;AAMA"}}]
+}

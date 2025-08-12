@@ -1,0 +1,77 @@
+/* [project]/src/app/nickname/nickname.module.css [app-client] (css) */
+.nickname-module__qKqy4W__container {
+  background-color: #f0f2f5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 70px);
+  display: flex;
+}
+
+.nickname-module__qKqy4W__title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 1.4vw;
+}
+
+.nickname-module__qKqy4W__form {
+  background-color: #fff;
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+}
+
+.nickname-module__qKqy4W__profileImage {
+  object-fit: cover;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.nickname-module__qKqy4W__label {
+  color: #555;
+  align-self: flex-start;
+  font-weight: bold;
+}
+
+.nickname-module__qKqy4W__input {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+}
+
+.nickname-module__qKqy4W__input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, .25);
+}
+
+.nickname-module__qKqy4W__button {
+  color: #08cfd1;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 1vw;
+  font-weight: bold;
+  transition: background-color .3s;
+}
+
+.nickname-module__qKqy4W__button:hover {
+  background-color: #f6fdfd;
+}
+
+/*# sourceMappingURL=src_app_nickname_nickname_module_2d871673.css.map*/

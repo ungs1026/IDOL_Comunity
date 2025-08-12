@@ -1,0 +1,95 @@
+/* [project]/src/components/artist-sns/LiveVideoCard.module.css [app-client] (css) */
+.LiveVideoCard-module___EwTmq__cardContainer {
+  color: #000;
+  background-color: rgba(180, 180, 180, .643);
+  border-radius: 8px;
+  flex-direction: column;
+  width: 300px;
+  padding-bottom: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.LiveVideoCard-module___EwTmq__thumbnailWrapper {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+  overflow: hidden;
+}
+
+.LiveVideoCard-module___EwTmq__thumbnail {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.LiveVideoCard-module___EwTmq__duration {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 3px;
+  padding: 2px 5px;
+  font-size: .8em;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.LiveVideoCard-module___EwTmq__title {
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 10px 10px 5px;
+  font-size: 1.1em;
+  overflow: hidden;
+}
+
+.LiveVideoCard-module___EwTmq__stats {
+  color: #bbb;
+  gap: 10px;
+  margin: 0 10px 10px;
+  font-size: .9em;
+  display: flex;
+}
+
+.LiveVideoCard-module___EwTmq__cc {
+  color: #fff;
+  background-color: #0070f3;
+  border-radius: 3px;
+  padding: 2px 5px;
+  font-size: .8em;
+}
+
+.LiveVideoCard-module___EwTmq__artistInfo {
+  align-items: center;
+  gap: 10px;
+  margin: 0 10px;
+  display: flex;
+}
+
+.LiveVideoCard-module___EwTmq__artistImage {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.LiveVideoCard-module___EwTmq__artistDetails {
+  text-align: left;
+  flex-direction: column;
+  display: flex;
+}
+
+.LiveVideoCard-module___EwTmq__artistName {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.LiveVideoCard-module___EwTmq__uploadDate {
+  color: #bbb;
+  font-size: .8em;
+}
+
+/*# sourceMappingURL=src_components_artist-sns_LiveVideoCard_module_css_e59ae46c._.single.css.map*/

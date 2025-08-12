@@ -1,0 +1,47 @@
+/* [project]/src/styles/AdBanner.module.css [app-client] (css) */
+.AdBanner-module__NA8eKq__adBannerContainer {
+  color: #000;
+  margin-bottom: 40px;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.AdBanner-module__NA8eKq__adBannerItem {
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.AdBanner-module__NA8eKq__swiperButtonPrev, .AdBanner-module__NA8eKq__swiperButtonNext {
+  z-index: 10;
+  cursor: pointer;
+  color: #000;
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .15);
+}
+
+.AdBanner-module__NA8eKq__swiperButtonPrev:hover, .AdBanner-module__NA8eKq__swiperButtonNext:hover {
+  background-color: #fff;
+}
+
+.AdBanner-module__NA8eKq__swiperButtonPrev {
+  left: -22px;
+}
+
+.AdBanner-module__NA8eKq__swiperButtonNext {
+  right: -22px;
+}
+
+/*# sourceMappingURL=src_styles_AdBanner_module_css_e59ae46c._.single.css.map*/
